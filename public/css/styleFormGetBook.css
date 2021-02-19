@@ -1,0 +1,140 @@
+body {
+    background: #fff;
+}
+
+.formGetBook{
+    width: 700px;
+    height: 500px;
+    position: relative;
+    top: 120px;
+    left: 5%;
+    background: #003333;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+.header {
+    color: #fff;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+.header p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.header div{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    color: #999999;
+}
+
+.ip {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 40px;
+}
+
+.ip p {
+    width: 30%;
+    position: relative;
+    left: 20%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.ip input {
+    width: 40%;
+    position: relative;
+    left: 10%;
+    outline: none;
+    font-size: .9em;
+    padding: 1em 1em 1em;
+    border: none;
+    margin-bottom: 0.3em;
+    background: rgba(255, 255, 255, 0.85);
+    color: #000;
+    border-radius: 30px;
+    font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.date {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 70px;
+}
+
+.date p {
+    width: 30%;
+    position: relative;
+    left: 20%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.date input {
+    width: 40%;
+    position: relative;
+    left: 10%;
+    outline: none;
+    font-size: .9em;
+    padding: 1em 1em 1em;
+    border: none;
+    margin-bottom: 0.3em;
+    background: rgba(255, 255, 255, 0.85);
+    color: #000;
+    border-radius: 30px;
+    font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.phone {
+    position: relative;
+    top: 100px;
+}
+
+.check {
+    display: flex;
+    position: relative;
+    top: 110px;
+    width: 100%;
+}
+
+.check input {
+    position: relative;
+    left: 35%;
+}
+
+.check p {
+    width: 40%;
+    position: relative;
+    left: 40%;
+    bottom: 5px;
+    color: #999999;
+}
+
+.btn {
+    position: relative;
+    top: 70px;
+    display: flex;
+}
+
+.btn button {
+    width: 100px;
+    position: relative;
+    left: 30%;
+    margin-left: 5%;
+}
+
+.btn span {
+    margin-left: 13px;
+}

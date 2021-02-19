@@ -99,11 +99,63 @@ body {
     height: 45px;
 }
 
-
-
-.navbar {
+.main {
     position: relative;
     top: 70px;
+    width: 100%;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.product {
+    width: 30%;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 1px 1px 2px #AAAAAA;
+}
+
+.product-1 {
+    position: relative;
+    left: 3%;
+}
+
+.product-2 {
+    position: relative;
+    left: 5%;
+}
+
+.product-3 {
+    position: relative;
+    left: 7%;
+}
+
+.product img {
+    width: 60%;
+    position: relative;
+    top: 10px;
+    left: 20%;
+}
+
+.product button {
+    position: relative;
+    bottom: 5px;
+    left: 40%;
+}
+
+.product-content {
+    width: 100%;
+}
+
+.product-content ul {
+    text-align: justify;
+    width: 90%;
+    position: relative;
+    left: 3%;
 }
 
 .end {
@@ -119,13 +171,17 @@ body {
 
 .logo {
     font-size: 40px;
-    color: #fff;
     position: relative;
     text-align: center;
     width: 30%;
     left: 3%;
     top: 25px;
     height: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .end-content {

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/styleFormGetBook.css">
+</head>
+<body>
+    <form class="formGetBook">
+        <div class="header">
+            <p>
+                BORROWED
+            </p>
+            <div>
+                Enter full information after borrowed
+            </div>
+        </div>
+        <div class="ip">
+            <p>
+                <b>
+                    Amount:
+                </b>
+            </p>
+            <input type="number" name="amount" min="0" max="5">
+        </div><!--ip-->
+        <div class="date">
+            <p>
+                <b>
+                    Day return:
+                </b>
+            </p><!--date-->
+            <input type="date" name="dayReturn">
+        </div>
+        <div class="ip phone">
+            <p>
+                <b>
+                    Phone:
+                </b>
+            </p>
+            <input type="number" name="amount">
+        </div><!--amount-->
+        <div class="btn">
+            <button type="button" class="btn btn-success">borrowed</button>
+            <button type="button" class="btn btn-success"><span>Cancel</span></button>
+        </div>
+    </form>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/FormGetBook.js"></script>
+</body>
+</html>
