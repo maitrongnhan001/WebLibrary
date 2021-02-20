@@ -11,7 +11,7 @@
 </head>
 <body>
     <form class="formGetBook">
-        <div class="header">
+        <div class="headerFormGetBook">
             <p>
                 BORROWED
             </p>
@@ -22,20 +22,20 @@
         <div class="ip">
             <p>
                 <b>
+                    Code:
+                </b>
+            </p>
+            <input type="number" name="amount" min="0" max="5">
+        </div><!--ip-->
+        <div class="ip">
+            <p>
+                <b>
                     Amount:
                 </b>
             </p>
             <input type="number" name="amount" min="0" max="5">
         </div><!--ip-->
-        <div class="date">
-            <p>
-                <b>
-                    Day return:
-                </b>
-            </p><!--date-->
-            <input type="date" name="dayReturn">
-        </div>
-        <div class="ip phone">
+        <div class="ip phoneIp">
             <p>
                 <b>
                     Phone:
@@ -43,9 +43,55 @@
             </p>
             <input type="number" name="amount">
         </div><!--amount-->
-        <div class="btn">
-            <button type="button" class="btn btn-success">borrowed</button>
-            <button type="button" class="btn btn-success"><span>Cancel</span></button>
+        <div class="ip">
+            <p>
+                <b>
+                    Day return:
+                </b>
+            </p><!--date-->
+            <input type="date" name="dayReturn">
+        </div>
+        <div class="btnGetBook">
+            <button type="button" class="btn btn-success" id="get">borrowed</button>
+            <button type="button" class="btn btn-success" id="cancel"><span>Cancel</span></button>
+        </div>
+    </form>
+    <form class="formGetBook">
+        <div class="headerFormGetBook">
+            <p>
+                RETURN BOOK
+            </p>
+            <div>
+                Enter full information after return book.
+            </div>
+        </div>
+        <div class="ip">
+            <p>
+                <b>
+                    Code:
+                </b>
+            </p>
+            <input type="number" name="amount" min="0" max="5">
+        </div><!--ip-->
+        <div class="ip">
+            <p>
+                <b>
+                    Amount:
+                </b>
+            </p>
+            <input type="number" name="amount" min="0" max="5">
+        </div><!--ip-->
+        <div class="ip">
+            <p>
+                <b>
+                    Day return:
+                </b>
+            </p><!--date-->
+            <input type="date" name="dayReturn">
+        </div>
+        <div class="btnGetBook">
+            <button type="button" class="btn btn-success" id="get">Return</button>
+            <button type="button" class="btn btn-success" id="cancel"><span>Cancel</span></button>
         </div>
     </form>
     <script src="../js/jquery-3.5.1.min.js"></script>

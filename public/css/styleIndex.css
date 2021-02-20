@@ -1,9 +1,10 @@
+/*format body*/
 body {
     margin: 0;
     padding: 0;
     background: #DDDDDD;
 }
-
+/*format menu*/
 .menu {
     width: 100%;
     background: #336633;
@@ -34,7 +35,7 @@ body {
     color: #fff;
     font-size: 20px;
 }
-
+/*format header*/
 .header {
     margin: 0;
     padding: 0;
@@ -71,7 +72,7 @@ body {
     color: #AAAAAA;
     left: 30%;
 }
-
+/*format search*/
 .search {
     position: relative;
     top: 140px;
@@ -98,7 +99,7 @@ body {
     width: 100px;
     height: 45px;
 }
-
+/*format main*/
 .main {
     position: relative;
     top: 70px;
@@ -111,7 +112,7 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+/*format product*/
 .product {
     width: 30%;
     border-radius: 10px;
@@ -157,7 +158,7 @@ body {
     position: relative;
     left: 3%;
 }
-
+/*format end*/
 .end {
     position: relative;
     top: 70px;
@@ -236,4 +237,106 @@ body {
     width: 40%;
     right: 1%;
     top: 150px;
+}
+/*format form get and return book*/
+
+.formGetBook{
+    width: 600px;
+    height: 450px;
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+    background: #003333;
+    border-radius: 20px;
+    z-index: 1000;
+    display: none;
+}
+
+.formReturnBook{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+    background: #003333;
+    border-radius: 20px;
+    z-index: 1000;
+    display: none;
+}
+
+.headerFormGetBook {
+    color: #fff;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+.headerFormGetBook p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.headerFormGetBook div{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    color: #999999;
+}
+
+.ip {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 40px;
+}
+
+.ip p {
+    width: 30%;
+    position: relative;
+    left: 20%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.ip input {
+    width: 40%;
+    position: relative;
+    left: 10%;
+    outline: none;
+    font-size: .9em;
+    padding: 1em 1em 1em;
+    border: none;
+    margin-bottom: 0.3em;
+    background: rgba(255, 255, 255, 0.85);
+    color: #000;
+    border-radius: 30px;
+    font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.btnGetBook {
+    position: relative;
+    display: flex;
+    top: 70px;
+}
+
+.btnGetBook button {
+    width: 100px;
+    position: relative;
+    left: 30%;
+    margin-left: 5%;
+}
+
+.getBody {
+    background: url(../images/1.jpg)no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+	font-family: 'Open Sans', sans-serif;
 }
