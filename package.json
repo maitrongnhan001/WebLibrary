@@ -1,0 +1,25 @@
+{
+  "name": "weblibrary",
+  "version": "1.0.0",
+  "description": "web library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maitrongnhan001/WebLibrary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maitrongnhan001/WebLibrary/issues"
+  },
+  "homepage": "https://github.com/maitrongnhan001/WebLibrary#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.0"
+  }
+}
